@@ -31,4 +31,9 @@ Please ensure that you are familiar with our values in the instructions project.
 * excellent testing that acts as documentation for the code
 * challenging boundaries where necessary
 
+## Remarks 1,2,3
+Code related to these remakrs is writting only to satisfy BDD tests.
+When it comes to any input it is fine to show different outputs for tests like 00:00:00 and 24:00:00.
+However, when talking about a real clock these outputs are incorrect because inputs like 00:00:00 and 24:00:00 are exactly the same time of day therefore clock cannot show two different outputs for the same time at the same time.
+When talking about real clock, the code in remarks should be changed according to time format decided, whether it is 00:00:00 or 24:00:00 for midnight.
 
